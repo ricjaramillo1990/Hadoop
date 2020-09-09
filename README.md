@@ -11,10 +11,10 @@ being reviewed (Restaurant, Movie, Product) followed by the review text and then
 (1 for positive, 0 for negative). Each review is on a single line of the file with the different fields
 separated by a tab character, as shown in the following example:
 
-Restaurant I swung in to give them a try but was disappointed. 0 \n
-Restaurant I had a pretty satisfying experience. 1
-Movie Some applause should be given to the "prelude". 1
-Product A must study for anyone interested poor design. 0
+Restaurant I swung in to give them a try but was disappointed. 0 <br/>
+Restaurant I had a pretty satisfying experience. 1 <br/>
+Movie Some applause should be given to the "prelude". 1 <br/>
+Product A must study for anyone interested poor design. 0 <br/>
 
 Your task is to write a Java Hadoop Map/Reduce solution that will, in a single pass, find the 5 most
 common words associated with a given item type and sentiment. The result will be 6 rows of data
