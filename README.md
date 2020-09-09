@@ -5,8 +5,7 @@
 
 The task in completing this assignment is to analyse a range of reviews for the most common words
 that appear for both positive and negative sentiments. The data are contained in a file called
-sentiments.txt, which you can download from the module assignment page on Canvas (a shorter
-version called shortsent.txt is also available for testing purposes). The file contains the type of item
+sentiments.txt. The file contains the type of item
 being reviewed (Restaurant, Movie, Product) followed by the review text and then a sentiment value
 (1 for positive, 0 for negative). Each review is on a single line of the file with the different fields
 separated by a tab character, as shown in the following example:
